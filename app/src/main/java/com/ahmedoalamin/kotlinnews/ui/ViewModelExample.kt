@@ -1,4 +1,4 @@
-package com.ahmedoalamin.kotlinnews
+package com.ahmedoalamin.kotlinnews.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
