@@ -1,8 +1,9 @@
 # KotlinNewsRepo
-RecyclerView with MVVM Architecture pattern using java 
+
 
 This repo provides:
-*  RecyclerView 
+*  Kotlin
+*  RecyclerView with MVVM Architecture pattern using Kotlin 
 *  MVVM Architecure Pattern 
 *  Retrofit to deal with API Calls 
 *  Clean Code 
