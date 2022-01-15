@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/drawable/newspaper_icon.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/activity_history_orders.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/activity_news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/fragment_article.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/fragment_news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/fragment_saved.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/fragment_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/item_datax_preview.xml" value="0.264" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/item_error_message.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/item_newsresponse_preview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/layout/singlerow.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ahmed Alamin/Desktop/KotlinNewsRepo/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/Ahmed Alamin/Desktop/kotlinNews/app/src/main/res/drawable/newspaper.xml" value="0.2703125" />
         <entry key="..\:/Users/Ahmed Alamin/Desktop/kotlinNews/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
       </map>
@@ -13,5 +27,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.25416666666666665" />
+      </ProjectState>
+    </option>
   </component>
 </project>
