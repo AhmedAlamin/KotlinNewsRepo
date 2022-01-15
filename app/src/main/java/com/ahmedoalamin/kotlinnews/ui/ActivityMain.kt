@@ -6,6 +6,7 @@ import android.os.Bundle
 
 import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.lifecycle.ViewModelProviders
 
 
 import androidx.navigation.Navigation
@@ -15,12 +16,16 @@ import androidx.navigation.ui.NavigationUI
 
 
 import com.ahmedoalamin.kotlinnews.R
+import com.ahmedoalamin.kotlinnews.api.ApiHelper
+import com.ahmedoalamin.kotlinnews.api.RetrofitBuilder
+import com.ahmedoalamin.kotlinnews.ui.base.ViewModelFactory
 
 
 class ActivityMain : AppCompatActivity() {
 
+
     //adding splash screen feature
-    private val viewModel: ViewModelExample by viewModels()
+    private val viewModelx: ViewModelExample by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -28,23 +33,16 @@ class ActivityMain : AppCompatActivity() {
 
         installSplashScreen().apply {
             setKeepVisibleCondition {
-                viewModel.isLoading.value
+                viewModelx.isLoading.value
             }
             setContentView(R.layout.activity_main)
-
         }
 
         val navView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
-
-//        //Pass the ID's of Different destinations
-//        val appBarConfiguration: AppBarConfiguration = AppBarConfiguration.Builder(
-//            R.id.newsFragment
-//        )
-//            .build()
-
         //Initialize NavController.
         val navController = Navigation.findNavController(this, R.id.newsNavHostFragment)
         NavigationUI.setupWithNavController(navView, navController)
 
     }
+
 }

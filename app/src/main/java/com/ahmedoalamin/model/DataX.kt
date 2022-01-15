@@ -80,7 +80,7 @@ data class DataX(
     val report_reasons: Any,
     val saved: Boolean,
     val score: Int,
-    val secure_media: Any,
+    val secure_media: SecureMedia,
     val secure_media_embed: SecureMediaEmbed,
     val selftext: String,
     val selftext_html: String,
